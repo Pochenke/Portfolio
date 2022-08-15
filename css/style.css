@@ -2,11 +2,12 @@
 
 :root
 {
-    --bg-black-900:#D0C9C0;
-    --bg-black-100:#efead8;
-    --bg-black-50:#5F7161;
-    --text-black-900:#414141;
-    --text-black-700:#646464;
+    --bg-black-900:#2C3333;
+    --bg-black-100:#100F0F;
+    --bg-black-50:#A6D1E6;
+    --text-black-900:#E7F6F2;
+    --text-black-700:#F1F1F1;
+    --skin-color:#0096FF;
 }
 
 body

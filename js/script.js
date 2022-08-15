@@ -88,14 +88,14 @@ const nav = document.querySelector(".nav"),
             }
 
 const mail = document.getElementById("mail");
-const tooltip = document.getElementById("myTooltip");
 
 mail.addEventListener("click", function(){
     navigator.clipboard.writeText("lucasaquino2013@gmail.com");
-    tooltip.innerHTML = (`Mail copiado al portapapeles.`);
-})
-
-
-mail.addEventListener("mouseout", function(){
-    tooltip.innerHTML.replace(`Copiar al portapapeles.`);
+    Toastify({
+        text:"Mail copiado!",
+        duration: 3000,
+        style: {
+            background: "#0096FF"
+        }
+    }).showToast();
 })
